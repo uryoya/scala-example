@@ -20,5 +20,7 @@ lazy val root = (project in file(".")).
       setNextVersion,
       commitNextVersion,
       pushChanges
-    )
+    ),
+    ghreleaseRepoOrg := "uryoya",
+    ghreleaseRepoName := "scala-example",
   )
